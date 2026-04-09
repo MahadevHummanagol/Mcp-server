@@ -1,0 +1,323 @@
+2025-06-10 15:46:16,708 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 15:46:22,985 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 15:46:22,986 [INFO] MCPLogger - [ask_mistral] Question: hi
+2025-06-10 15:46:22,988 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '164'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'f5a91c63-45e3-11f0-b301-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 15:47:43,344 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 15:47:46,486 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '1368'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': 'bfdd1d79-64d7-4b7f-8593-beb295ff63de'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:17:46 GMT'
+2025-06-10 15:47:46,496 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 15:47:47,303 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 15:47:47,306 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '27eaf335-45e4-11f0-8bcd-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 15:48:36,167 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '1160'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': '7bdb9840-3b83-441d-9cc6-a1557b357d7c'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:18:36 GMT'
+2025-06-10 16:05:51,146 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 16:05:58,982 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 16:05:58,987 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'b29c548b-45e6-11f0-8851-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 16:06:58,219 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '1073'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': 'bc9dc333-7064-437e-92bd-be4ce99a12c1'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:36:57 GMT'
+2025-06-10 16:14:42,097 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 16:15:46,139 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 16:15:51,110 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 16:15:51,116 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '138bf275-45e8-11f0-85a5-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 16:16:00,055 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '1065'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': 'af24735c-31a6-4381-aa61-26bc7fbf566e'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:46:00 GMT'
+2025-06-10 16:16:11,647 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 16:16:11,653 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '1fc9ce9b-45e8-11f0-8270-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 16:16:25,937 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 16:16:25,941 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '284dce67-45e8-11f0-b5b9-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 16:16:30,999 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '930'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': 'a9d974ba-8cfa-4142-a00b-e79a6e3d831d'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:46:31 GMT'
+2025-06-10 16:16:34,661 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '889'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': '04d0b59f-b037-4ab7-99fa-9dcc2e714b22'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:46:34 GMT'
+2025-06-10 16:17:32,330 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 16:17:57,620 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 16:18:07,350 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 16:18:12,052 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 16:18:12,055 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '678d9d2d-45e8-11f0-8dac-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 16:18:28,441 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '930'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': 'e68ae27d-c6a3-4e63-bf05-88e6fb21f876'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:48:28 GMT'
+2025-06-10 16:24:49,091 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 16:24:55,349 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 16:25:02,411 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 16:25:02,415 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '5c2578e8-45e9-11f0-8b5b-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 16:25:57,125 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '930'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': 'b44b77e1-c453-4bde-88a0-95cb29359c79'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 10:55:57 GMT'
+2025-06-10 17:01:32,885 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 17:02:07,183 [INFO] mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-06-10 17:02:08,016 [INFO] mcp.server.lowlevel.server - Processing request of type ReadResourceRequest
+2025-06-10 17:02:13,690 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 17:02:18,235 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 17:02:18,239 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '90cd29f7-45ee-11f0-a2ee-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 17:05:27,141 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '2533'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': 'f8655755-62d1-432c-b09d-fb39291c2a7f'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 11:35:26 GMT'
+2025-06-10 17:36:59,806 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 18:51:22,490 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 18:51:30,721 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 18:51:30,728 [INFO] azure.core.pipeline.policies.http_logging_policy - Request URL: 'https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com/chat/completions?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '873'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'd2639625-45fd-11f0-8309-d8f2ca088c06'
+    'api-key': 'REDACTED'
+    'User-Agent': 'azsdk-python-ai-inference/1.0.0b9 Python/3.13.3 (Windows-10-10.0.19045-SP0)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-06-10 18:52:06,680 [INFO] azure.core.pipeline.policies.http_logging_policy - Response status: 200
+Response headers:
+    'Content-Length': '930'
+    'Content-Type': 'application/json'
+    'prompt_token_len': 'REDACTED'
+    'sampling_token_len': 'REDACTED'
+    'x-ms-rai-invoked': 'REDACTED'
+    'x-request-id': 'REDACTED'
+    'azureml-ms-model-error-comprehensive': 'REDACTED'
+    'azureml-destination-model-group': 'REDACTED'
+    'azureml-destination-region': 'REDACTED'
+    'azureml-destination-deployment': 'REDACTED'
+    'azureml-destination-endpoint': 'REDACTED'
+    'x-ms-client-request-id': '2e46d626-536d-4fea-a4f6-0f407ac39173'
+    'Request-Context': 'REDACTED'
+    'azureml-model-session': 'REDACTED'
+    'azureml-model-group': 'REDACTED'
+    'Date': 'Tue, 10 Jun 2025 13:22:06 GMT'
+2025-06-10 18:52:46,183 [ERROR] cli - Failed to run server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-10 19:06:08,057 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 19:06:11,788 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-06-10 19:15:32,609 [INFO] mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-06-10 19:15:37,048 [INFO] mcp.server.lowlevel.server - Processing request of type CallToolRequest

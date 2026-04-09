@@ -1,0 +1,7 @@
+pip install fastmcp
+pip install modelcontextprotocol
+pip install redis
+pip install azure-ai-inference
+pip install tiktoken
+pip install fastapi
+pip install pymongo
