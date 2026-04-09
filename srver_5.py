@@ -54,8 +54,8 @@ redis_client = Redis(
 JsonType = Union[str, int, float, bool, None, list, dict[str, Any]]  # ✅ safe & stable
 
 # Azure Mistral Configuration
-AZURE_ENDPOINT = "https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com"
-AZURE_KEY = "5WCo1nlf7qfaEr7BEHdW9KWR3k8dvnNu"
+AZURE_ENDPOINT = "https://Mistral-Large-2411-clhld.--------------
+AZURE_KEY = "-----------------"
 AZURE_MODEL = "Mistral-Large-2411-clhld"
 
 # Create client
