@@ -43,10 +43,10 @@ logging.info("🟢 Logging system initialized.")
 
 # Connect to Redis (corrected arguments)
 redis_client = Redis(
-    host="redis-14634.c251.east-us-mz.azure.redns.redis-cloud.com",
+    host="redis-14634.c251
     port=14634,
     username="default",
-    password="68mOAf810GLVydSErlyTNn5tJJnmLYAJ",
+    password=""
     decode_responses=True
 )
 
