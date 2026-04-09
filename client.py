@@ -10,8 +10,8 @@ from azure.ai.inference.models import AssistantMessage, SystemMessage, UserMessa
 from azure.core.credentials import AzureKeyCredential
 
 # === Azure Mistral Config ===
-AZURE_ENDPOINT = "https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com"
-AZURE_KEY = '5WCo1nlf7qfaEr7BEHdW9KWR3k8dvnNu'
+AZURE_ENDPOINT = "https://Mistral-Large-2411-"
+AZURE_KEY = '
 AZURE_MODEL = "Mistral-Large-2411-clhld"
 
 client = ChatCompletionsClient(
