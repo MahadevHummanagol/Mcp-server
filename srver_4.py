@@ -44,10 +44,10 @@ from redis.exceptions import RedisError
 
 # Connect to Redis (corrected arguments)
 redis_client = Redis(
-    host="redis-14634.c251.east-us-mz.azure.redns.redis-cloud.com",
+    host="redis-14---------------",
     port=14634,
     username="default",
-    password="68mOAf810GLVydSErlyTNn5tJJnmLYAJ",
+    password="68mO-----------,
     decode_responses=True
 )
 
@@ -57,8 +57,8 @@ JsonType = Union[str, int, float, bool, None, list, dict[str, Any]]  # ✅ safe 
 
 # ----------------------- Redis JSON Tools -----------------------
 # Azure Mistral Configuration
-AZURE_ENDPOINT = "https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com"
-AZURE_KEY = "5WCo1nlf7qfaEr7BEHdW9KWR3k8dvnNu"
+AZURE_ENDPOINT = "https://Mistral-Large-------------------"
+AZURE_KEY = "-----------
 AZURE_MODEL = "Mistral-Large-2411-clhld"
 
 # Create client
