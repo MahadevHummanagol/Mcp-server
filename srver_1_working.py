@@ -9,8 +9,8 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("MahadevDemo 🚀", stateless_http=True, json_response=True)
 
 # Azure Mistral Configuration
-AZURE_ENDPOINT = "https://Mistral-Large-2411-clhld.southcentralus.models.ai.azure.com"
-AZURE_KEY = "5WCo1nlf7qfaEr7BEHdW9KWR3k8dvnNu"
+AZURE_ENDPOINT = "https://Mistral-Large-2411-clhld.-------------------------"
+AZURE_KEY = "5WCo1nl---------------------------"
 AZURE_MODEL = "Mistral-Large-2411-clhld"
 
 # Create client
